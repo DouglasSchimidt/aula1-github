@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.parser.Scanner"/>
+    <fullyQualifiedTypeName name="entitities.Triangle"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="classeCalc.programOne"/>
+    <fullyQualifiedTypeName name="java.awt.geom.Area"/>
+    <fullyQualifiedTypeName name="Entities.Retangulo"/>
+    <fullyQualifiedTypeName name="Entities.funcionario"/>
+    <fullyQualifiedTypeName name="jdk.internal.util.xml.impl.Input"/>
+    <fullyQualifiedTypeName name="Entities.Aluno"/>
+    <fullyQualifiedTypeName name="jdk.dynalink.linker.ConversionComparator"/>
+    <fullyQualifiedTypeName name="Program.aplication"/>
+    <fullyQualifiedTypeName name="utill.currencyConverter"/>
+    <fullyQualifiedTypeName name="Entities.Product"/>
+    <fullyQualifiedTypeName name="javax.security.auth.login.AccountException"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="Aplication.programBank"/>
+    <fullyQualifiedTypeName name="Entities.calculator"/>
+    <fullyQualifiedTypeName name="entities.Product"/>
+    <fullyQualifiedTypeName name="arrays.programPensao"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="pensão.Cadastro"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Entities.Funcionario"/>
+</qualifiedTypeNameHistroy>

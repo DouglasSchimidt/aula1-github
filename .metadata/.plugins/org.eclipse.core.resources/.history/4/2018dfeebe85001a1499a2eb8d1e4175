@@ -1,0 +1,36 @@
+import java.text.SimpleDateFormat;
+import java.time.Instant;
+import java.util.Calendar;
+import java.util.Date;
+
+public class dateThwo {
+
+	public static void main(String[] args) {
+	
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+		Date d = Date.from(Instant.parse("2018-06-25T15:42:07Z"));
+		System.out.println(sdf.format(d));
+		
+		
+		Calendar cal = Calendar.getInstance();
+		
+		cal.setTime(d);
+		cal.add(Calendar.HOUR_OF_DAY, 4); // Adiciona 4 horas no horario estipulado
+		d = cal.getTime();
+		
+		System.out.println(sdf.format(d));
+		
+		System.out.println("______________________");
+		
+		int minuts = cal.get(Calendar.MINUTE); // pega o minuto 
+		System.out.println("Minuts: " + minuts);
+		
+		
+		System.out.println("______________________");
+		
+		int month = cal.get(Calendar.MONTH+1); // pega o mes
+		
+				System.out.println("Month: " + month);
+	}
+
+}

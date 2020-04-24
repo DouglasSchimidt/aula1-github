@@ -1,0 +1,55 @@
+package Aplication;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
+
+import Entities.Funcionario;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		Funcionario func = new Funcionario();
+
+		List list = new ArrayList<>();
+
+		System.out.print("How many employees will be registered? ");
+
+		int quantityEmployee = sc.nextInt();
+
+		for (int i = 0; i < quantityEmployee; i++) {
+
+			System.out.println("ID: ");
+			
+			int id = sc.nextInt();
+			func.setId(id);
+			list.add(id);
+			
+			System.out.println("Employee #" + i + ":");
+			
+			String name = sc.next();
+			func.setName(name);
+			list.add(name);
+			
+			System.out.println("Salary: ");
+			
+			double salary = sc.nextDouble();
+			func.setSalary(salary);
+			list.add(salary);
+			
+		}
+		
+		System.out.println(list);
+
+			System.out.print("Enter the employee id that will have salary increase : ");
+			int serchId = sc.nextInt();
+		
+		
+	}
+
+}

@@ -1,0 +1,58 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class listas {
+
+	public static void main(String[] args) {
+
+		List<String> list = new ArrayList<>(); // não aceita Tipos primitivos.
+
+		list.add("Maria");
+		list.add("Alex");
+		list.add("Bob");
+		list.add("Ana");
+		list.add(2, "MARCO"); // Subbstitui o nome da posição 2 por "MARCO"
+		System.out.println(list.size()); // Para ver o tamanho da Lista
+		//list.remove("Ana"); // Remove um elemento da lista
+		//list.remove(1); // Remove um elemento da lista
+
+		for (String x : list) {
+
+			System.out.println(x);
+
+		}
+		System.out.println("__________________________________________");
+
+		//list.removeIf(x -> x.charAt(0) == 'M'); // remove todos os nomes que começam com M;
+
+		for (String x : list) {
+
+			System.out.println(x);
+
+		}
+
+		System.out.println("__________________________________________");
+		
+		System.out.println("Index of Bob: " + list.indexOf("Bob")); // Mostra posição de Bob na Lista
+		System.out.println("Index of Bob: " + list.indexOf("Doug")); // quando nao encontra, fica -1 (falso)
+		
+		System.out.println("__________________________________________");
+		
+		List<String> result = list.stream().filter(x -> x.charAt(0) == 'A').collect(Collectors.toList());
+		for (String x : result) {
+											// filtra os nomes começados com a letra B;
+			System.out.println(result);
+			
+			System.out.println("__________________________________________");
+			
+			
+			String name = list.stream().filter(y -> y. == 'A').findFirst().orElse(null); 
+										// Encontra o primeiro elemento da lista com a letra "A"
+			System.out.println(name);
+			
+		}
+		
+	}
+
+}
